@@ -57,7 +57,7 @@ function About() {
                   <p className="text-muted-foreground">
                     Government Partnership & Funding:
                     <ul className="pl-4">
-                      <li className="list-disc"><b>Flagship Programs Supported:</b> Our Senior Citizen Home and Drugs De-addiction and Rehabilitation center receive vital support.</li>
+                      <li className="list-disc"><b>Flagship Programs Supported:</b> Our Senior Citizen Home and Smile Beggary Program receive vital support.</li>
                       <li className="list-disc"><b>Funded by:</b> The Government of India under the Ministry of Social Justice and Empowerment.</li>
                       <li className="list-disc"><b>Impact:</b> This partnership significantly expands our reach and allows us to provide high-quality, specialized care.</li>
                       <li className="list-disc"><b>Alignment:</b> Our efforts are directly aligned with national goals to uplift vulnerable populations.</li>

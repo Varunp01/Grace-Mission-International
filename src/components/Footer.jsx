@@ -38,7 +38,7 @@ function Footer() {
             <h3 className="font-medium mb-4">Contact</h3>
             <address className="not-italic text-sm space-y-2 text-muted-foreground">
               <p>Dimapur, Nagaland</p>
-              <p>India-797103</p>
+              <p>India-797112</p>
               <p className="pt-2">Phone: 9667552376</p>
               <p>Email: shojilayimchunger8@gmail.com</p>
             </address>

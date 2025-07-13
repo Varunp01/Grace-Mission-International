@@ -53,6 +53,8 @@ function OurInitiatives() {
                 </b></p>
                 <p className="text-lg text-gray-600 mb-6">
                   The Smile Beggary program offers a beacon of hope for individuals experiencing homelessness and destitution. We provide safe shelter, essential medical care, and nutritious food. Beyond immediate relief, our focus is on long-term rehabilitation through skill development training, equipping individuals with the tools they need to become self-reliant and reintegrate into society with dignity.
+                  <br></br>
+                  <b className="text-black text-base">This program is funded by the Government of India under the Ministry of Social Justice and Empowerment.</b>
                 </p>
               </div>
             </div>
@@ -101,9 +103,7 @@ function OurInitiatives() {
                 </b></p>
                 <p className="text-lg text-gray-600 mb-6">
                   The Drugs De-addiction and Rehabilitation program offers a lifeline to individuals struggling with substance abuse. We provide a structured and supportive environment for recovery, including professional counseling, medically supervised detoxification, and various therapeutic interventions. Our goal is to guide individuals through the journey of overcoming addiction and to facilitate their successful reintegration into society as healthy, productive members.
-                  <br></br>
-                  <b className="text-black text-base">This program is funded by the Government of India under the Ministry of Social Justice and Empowerment.</b>
-                </p>
+                  </p>
               </div>
             </div>
           </div>

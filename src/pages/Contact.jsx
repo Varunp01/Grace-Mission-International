@@ -3,6 +3,7 @@
 import { useState } from "react"
 import Header from "../components/Header"
 import Footer from "../components/Footer"
+import Form from "../components/Form"
 
 function Contact() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -16,6 +17,7 @@ function Contact() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
             <h2 className="text-2xl font-semibold mb-4">Get In Touch</h2>
+            <Form></Form>
             {/* <form className="space-y-4">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium mb-1">
@@ -67,7 +69,7 @@ function Contact() {
                 <address className="not-italic">
                   Dimapur, Nagaland
                   <br />
-                  India-797103
+                  India-797112
                 </address>
               </div>
               <div>
