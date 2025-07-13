@@ -19,7 +19,7 @@ function CallToAction() {
               Contact Us
             </Link>
             <Link
-              to="/menu"
+              to="/#initiatives"
               className="inline-flex justify-center items-center bg-transparent border border-primary-foreground/30 hover:bg-primary-foreground/10 px-6 py-3 rounded-md text-base font-medium transition-colors"
             >
               Check Our Initiatives
