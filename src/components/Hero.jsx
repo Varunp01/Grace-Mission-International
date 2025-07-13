@@ -11,7 +11,7 @@ function Hero() {
         />
       </div>
       <div className="container mx-auto relative z-10 py-16 md:py-20 lg:py-20">
-        <div className="max-w-3xl space-y-2 text-white sm:pl-10">
+        <div className="max-w-3xl space-y-2 text-white sm:pl-10 md:pl-20">
           <p className="text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl">
             Welcome to 
           </p>

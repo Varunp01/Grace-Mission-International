@@ -13,7 +13,7 @@ function OurInitiatives() {
           </p>
         </div>
 
-        <section className="py-10 bg-slate-200 rounded-2xl">
+        <section className="py-10 mt-5 bg-slate-200 rounded-2xl">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
@@ -36,7 +36,7 @@ function OurInitiatives() {
           </div>
         </section>
         
-        <section className="py-10 bg-slate-100 rounded-2xl">
+        <section className="py-10 mt-5 bg-slate-100 rounded-2xl">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
@@ -59,7 +59,7 @@ function OurInitiatives() {
           </div>
         </section>
 
-        <section className="py-10 bg-slate-200 rounded-2xl">
+        <section className="py-10 mt-5 bg-slate-200 rounded-2xl">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
@@ -84,7 +84,7 @@ function OurInitiatives() {
           </div>
         </section>
         
-        <section className="py-10 bg-slate-100 rounded-2xl">
+        <section className="py-10 mt-5 bg-slate-100 rounded-2xl">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
@@ -109,7 +109,7 @@ function OurInitiatives() {
           </div>
         </section>
 
-        <section className="py-10 bg-slate-200 rounded-2xl">
+        <section className="py-10 mt-5 bg-slate-200 rounded-2xl">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
