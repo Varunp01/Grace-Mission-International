@@ -31,7 +31,7 @@ const Form = ({ title, subtitle }) => {
     console.log(name, "+", email, "+", country, "+", phno, "+", rawPhone, "+", codePhone, "+", countryPhone, "+", message);
 
     try {
-      fetch('https://sheetdb.io/api/v1/nmz2fycqjr7us', {
+      fetch('https://sheetdb.io/api/v1/bllevnx615ar0', {
         method: 'POST',
         headers: {
           'Accept': 'application/json',
@@ -40,7 +40,7 @@ const Form = ({ title, subtitle }) => {
         body: JSON.stringify({
           data: [
             {
-              'website': `Marketing`,
+              'website': `Grace Mission International`,
               'name': `${name}`,
               'email': `${email}`,
               'country': `${country}`,
@@ -55,9 +55,9 @@ const Form = ({ title, subtitle }) => {
         .then((data) => {
           console.log(data);
           setDataSend(true);
+          document.body.scrollTop = document.documentElement.scrollTop = 0;
           setTimeout(() => {
             setDataSend(false);
-            navigate('/thankyou');
           }, 5000);
           setName("");
           setEmail("");
@@ -327,39 +327,7 @@ const Form = ({ title, subtitle }) => {
           </>
         }
       </div>
-      {/* Contact Info */}
-      <div className="grid md:grid-cols-3 gap-6 mt-12 text-center">
-        <a href="tel:+919625440855">
-          <div className="flex flex-col items-center">
-            <div className="p-3 bg-green-500/20 rounded-full mb-3">
-              <Phone className="w-6 h-6 text-green-400" />
-            </div>
-            <span className="text-gray-300">+91 9625440855</span>
-          </div>
-        </a>
-        <a href="mailto:info@example.com" className="flex md:hidden flex-col items-center">
-          <div className="flex flex-col items-center">
-            <div className="p-3 bg-green-500/20 rounded-full mb-3">
-              <Mail className="w-6 h-6 text-green-400" />
-            </div>
-            <span className="text-gray-300">marketing@arevei.com</span>
-          </div>
-        </a>
-        <a href="https://mail.google.com/mail/?view=cm&to=marketing@arevei.com&su=Regarding%20Restaurant%20Marketing%20Inquiry" className="hidden md:flex flex-col items-center">
-          <div className="flex flex-col items-center">
-            <div className="p-3 bg-green-500/20 rounded-full mb-3">
-              <Mail className="w-6 h-6 text-green-400" />
-            </div>
-            <span className="text-gray-300">marketing@arevei.com</span>
-          </div>
-        </a>
-        <div className="flex flex-col items-center">
-          <div className="p-3 bg-green-500/20 rounded-full mb-3">
-            <MapPin className="w-6 h-6 text-green-400" />
-          </div>
-          <span className="text-gray-300">Delhi, India</span>
-        </div>
-      </div>
+      
     </>
   )
 }
